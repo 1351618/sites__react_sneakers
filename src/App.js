@@ -1,5 +1,8 @@
+// App.js
+
 import logo from "./logo.svg";
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -9,7 +12,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>еще один текст</p>
+        <p>еще один текст ХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХ</p>
         <a
           className="App-link"
           href="https://reactjs.org"
