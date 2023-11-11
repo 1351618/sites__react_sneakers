@@ -1,0 +1,37 @@
+:root {
+  --body: #e7f6ff;
+}
+
+// шаблоны
+
+.btn-Green {
+  height: 40px;
+  background-color: #29951bd9;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 5px;
+  &:hover {
+    box-shadow: inset 2px -2px 12px #004f02, inset -2px 2px 10px #ffffffe0;
+  }
+}
+
+.hidden {
+  display: none !important;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.btn-off {
+  pointer-events: none;
+  background-color: #7a7a7a;
+}

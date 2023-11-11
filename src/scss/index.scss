@@ -1,0 +1,11 @@
+@import "./connection";
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: system-ui; //шрифт, установленный по умолчанию в операционной системе пользователя
+}

@@ -1,0 +1,73 @@
+.placing-an-order {
+  background-color: #dffbf3;
+  border-radius: 25px;
+  box-shadow: inset 0px 0px 10px #fff, inset 0px 0px 20px #fff,
+    inset 0px 0px 40px #fff, inset 0px 0px 80px #fff;
+}
+.p-a-o__info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2vw;
+  gap: 3vw;
+}
+
+.p-a-o__total {
+  width: 170px;
+  div {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    p {
+      border-bottom: 1px dotted #9e9e9e;
+    }
+    span {
+      width: 100%;
+      border-bottom: 1px dotted #9e9e9e;
+    }
+  }
+}
+
+.p-a-o__pay {
+  padding: 5px;
+}
+.p-a-o__cards {
+  // width: 70vw;
+  padding: 1vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.p-a-o__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4vh 0px;
+}
+
+.card-product__delite {
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: #ff000073;
+  }
+}
+
+.p-a-o__empti-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4vh;
+  h3 {
+    text-align: center;
+  }
+  img {
+    height: 20vh;
+  }
+}
